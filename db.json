@@ -1,0 +1,262 @@
+{
+  "countries": [
+    {
+      "name": "Argentina",
+      "value": "AR"
+    },
+    {
+      "name": "Australia",
+      "value": "AU"
+    },
+    {
+      "name": "Austria",
+      "value": "AT"
+    },
+    {
+      "name": "Belgium",
+      "value": "BE"
+    },
+    {
+      "name": "Brazil",
+      "value": "BR"
+    },
+    {
+      "name": "Canada",
+      "value": "CA"
+    },
+    {
+      "name": "Chile",
+      "value": "CL"
+    },
+    {
+      "name": "Czech Republic",
+      "value": "CZ"
+    },
+    {
+      "name": "Denmark",
+      "value": "DK"
+    },
+    {
+      "name": "Finland",
+      "value": "FI"
+    },
+    {
+      "name": "France",
+      "value": "FR"
+    },
+    {
+      "name": "Germany",
+      "value": "DE"
+    },
+    {
+      "name": "Hong Kong",
+      "value": "HK"
+    },
+    {
+      "name": "Hungary",
+      "value": "HU"
+    },
+    {
+      "name": "India",
+      "value": "IN"
+    },
+    {
+      "name": "Indonesia",
+      "value": "ID"
+    },
+    {
+      "name": "Ireland",
+      "value": "IE"
+    },
+    {
+      "name": "Italy",
+      "value": "IT"
+    },
+    {
+      "name": "Japan",
+      "value": "JP"
+    },
+    {
+      "name": "Republic of Korea",
+      "value": "KR"
+    },
+    {
+      "name": "Liechtenstein",
+      "value": "LI"
+    },
+    {
+      "name": "Luxembourg",
+      "value": "LU"
+    },
+    {
+      "name": "Mexico",
+      "value": "MX"
+    },
+    {
+      "name": "Netherlands",
+      "value": "NL"
+    },
+    {
+      "name": "New Zealand",
+      "value": "NZ"
+    },
+    {
+      "name": "Norway",
+      "value": "NO"
+    },
+    {
+      "name": "Poland",
+      "value": "PL"
+    },
+    {
+      "name": "Portugal",
+      "value": "PT"
+    },
+    {
+      "name": "Singapore",
+      "value": "SG"
+    },
+    {
+      "name": "Slovakia",
+      "value": "SK"
+    },
+    {
+      "name": "Slovenia",
+      "value": "SI"
+    },
+    {
+      "name": "Spain",
+      "value": "ES"
+    },
+    {
+      "name": "Sweden",
+      "value": "SE"
+    },
+    {
+      "name": "Switzerland",
+      "value": "CH"
+    },
+    {
+      "name": "Turkey",
+      "value": "TR"
+    },
+    {
+      "name": "United Kingdom",
+      "value": "GB"
+    },
+    {
+      "name": "United States",
+      "value": "US"
+    }
+  ],
+  "tutorials": [
+    {
+      "id": 1,
+      "name": "Buy more tokens",
+      "html": "<div class=\"col\" bis_skin_checked=\"1\"><section class=\"card mb-5 mx-1\" style=\"background: rgba(255,255,255,1);  border-style: solid; border-radius: 7px; border-color: lightgray; \" id=\"tutorial_22\"><div class=\"card-header text-center\" style=\"background-color:#2DB8C5; border-style:solid; border-color:#2DB8C5; border-width: 1px; border-radius: 5px 5px 0px 0px; \" bis_skin_checked=\"1\"><img class=\" \" src=\"../../assets/images/tutorials/icon_howto.png\" style=\"float:left; height:50px;\" alt=\"Tutorial howto image\" data-toggle=\"tooltip\" data-html=\"true\" data-placement=\"top\" title=\"\"></div></section></div>"
+    },
+    {
+      "id": 2,
+      "name": "Change my password",
+      "html": "Change My Password"
+    },
+    {
+      "id": 3,
+      "name": "Download experimental material properties",
+      "html": "Download Experimental Material Properties"
+    },
+    {
+      "id": 4,
+      "name": "Manage my company users",
+      "html": "Manage My Company Users"
+    }
+  ],
+  "profiles": [
+    {
+      "userid": "1",
+      "imageurl": "http://localhost:4200/assets/images/myaccount/profile_default.png"
+    },
+    {
+      "userid": "2",
+      "imageurl": "http://localhost:4200/assets/images/myaccount/profile_default_gray.png"
+    },
+    {
+      "userid": "3",
+      "imageurl": "http://localhost:4200/assets/images/contacts/profile_John.png"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Smith admin",
+      "username": "john.smith.admin",
+      "email": "chandrantwins@gmail.com",
+      "country": "AT",
+      "password": "12345678",
+      "roles": [
+        "ROLE_ADMIN"
+      ]
+    },
+    {
+      "username": "",
+      "currentpassword": "",
+      "newpassword": "",
+      "verifypassword": "",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "firstname": "John",
+      "lastname": "Smith user",
+      "username": "john.smith.user",
+      "email": "chandran2wins@gmail.com",
+      "country": "AU",
+      "password": "12345678",
+      "roles": [
+        "ROLE_USER"
+      ]
+    },
+    {
+      "id": 4,
+      "firstname": "Chandran",
+      "lastname": "Dhivya",
+      "username": "chandran.dhivya",
+      "email": "ninaksha.chandran@gmail.com",
+      "country": "FR",
+      "password": "12345678",
+      "roles": [
+        "ROLE_ADMIN"
+      ]
+    },
+    {
+      "id": 5
+    }
+  ],
+  "signout": {
+    "sessionclear": true,
+    "logout": true
+  },
+  "products": [
+    {
+      "id": "1",
+      "name": "Demo Cola Product 1",
+      "desc": "Become a subscriber and buy this demo product properties for free and see what type of data are available in MydB. Habitant morbitristique senectus et netus. Lorem ipsum dolor sit amet. Magnis dis parturient montesnascetur ridiculus mus. Amet nisl purus in mollis nunc sed id semper risus. Fames acturpis egestas integereget aliquet nibh praesent tristique. Dolor purus non enim praesent elementum facilisis.Ultrices in iaculis nunc sed augue lacus viverra. Sollicitudin aliquam ultrices sagittisorci a scelerisque. Id neque aliquam vestibulum morbi. Nec feugiat nisl pretium fusce id velit. Accumsan tortor posuere ac ut consequat."
+    },
+    {
+      "id": "2",
+      "name": "Demo Fanta Product 2",
+      "desc": "Become a subscriber and buy this demo product properties for free and see what type of data are available in MydB. Habitant morbitristique senectus et netus. Lorem ipsum dolor sit amet. Magnis dis parturient montesnascetur ridiculus mus. Amet nisl purus in mollis nunc sed id semper risus. Fames acturpis egestas integereget aliquet nibh praesent tristique. Dolor purus non enim praesent elementum facilisis.Ultrices in iaculis nunc sed augue lacus viverra. Sollicitudin aliquam ultrices sagittisorci a scelerisque. Id neque aliquam vestibulum morbi. Nec feugiat nisl pretium fusce id velit. Accumsan tortor posuere ac ut consequat."
+    },
+    {
+      "id": "3",
+      "name": "Demo Sprite Product 3",
+      "desc": "Become a subscriber and buy this demo product properties for free and see what type of data are available in MydB. Habitant morbitristique senectus et netus. Lorem ipsum dolor sit amet. Magnis dis parturient montesnascetur ridiculus mus. Amet nisl purus in mollis nunc sed id semper risus. Fames acturpis egestas integereget aliquet nibh praesent tristique. Dolor purus non enim praesent elementum facilisis.Ultrices in iaculis nunc sed augue lacus viverra. Sollicitudin aliquam ultrices sagittisorci a scelerisque. Id neque aliquam vestibulum morbi. Nec feugiat nisl pretium fusce id velit. Accumsan tortor posuere ac ut consequat."
+    },
+    {
+      "id": "4",
+      "name": "Demo Kal Product 4",
+      "desc": "Become a subscriber and buy this demo product properties for free and see what type of data are available in MydB. Habitant morbitristique senectus et netus. Lorem ipsum dolor sit amet. Magnis dis parturient montesnascetur ridiculus mus. Amet nisl purus in mollis nunc sed id semper risus. Fames acturpis egestas integereget aliquet nibh praesent tristique. Dolor purus non enim praesent elementum facilisis.Ultrices in iaculis nunc sed augue lacus viverra. Sollicitudin aliquam ultrices sagittisorci a scelerisque. Id neque aliquam vestibulum morbi. Nec feugiat nisl pretium fusce id velit. Accumsan tortor posuere ac ut consequat."
+    }
+  ]
+}
